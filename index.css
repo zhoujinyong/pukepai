@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	border :0;
+}
+.beijing{
+	width: 100%;
+	height: 100%;
+	background-image:url(image/banner.jpg); 
+	background-size: 100%;
+}
+.pai{
+	width: 120px;
+	height:168px;
+	float: left;
+	border: 1px solid #ccc;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.changjin{
+	width: 1000px;
+	height: 568px;
+	/*border:2px solid #31425d;*/
+	position: relative;
+	top: 60px;
+	left: 50%;
+	margin-left: -500px;
+}
+.changjin .left,.changjin .right{
+	width: 100px;
+	height: 40px;
+	background: #8b4513;
+	position: absolute;
+	top: 430px;
+	left: 50%;
+	margin-left: -50px;
+	border-radius: 10px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	border-width: 800;
+	color: #fff;
+	}
+.changjin .right{
+	top: 490px;
+}
+.changjin .kaishi,.changjin .jilu{
+	width: 170px;
+	height: 70px;
+	background-image: url(image/anniu04.png);
+	background-size: 100%;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	margin-left: -85px;
+	border-radius: 10px;
+	font-size: 32px;
+	line-height: 70px;
+	text-align: center;
+	font-weight: 800;
+	color: #666;
+}
+.changjin .kaishi{
+	top: 350px;
+}
+.beijing .fenshu, .beijing .jishiqi{
+	width: 140px;
+	height: 40px;
+	background: #8b4513;
+	position: absolute;
+	top: 0px;
+	left: 800px;
+	border-radius: 10px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	border-width: 800;
+	color: #fff;
+}
+.beijing .jishiqi{
+	left: 960px;
+	width: 160px;
+}
+.jieshu,.chongqi{
+	width: 140px;
+	height: 40px;
+	background: #8b4513;
+	position: absolute;
+	top: 0px;
+	left: -100px;
+	border-radius: 10px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	border-width: 800;
+	color: #fff;
+}
+.chongqi{
+	left: 50px;
+}
