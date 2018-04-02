@@ -17,7 +17,7 @@ $(function(){
 			time+=1;
 			if (time<=181) {
 				if(time==181){
-					alert("对不起！你已超时");
+					alert("对不起！你已超时了");
 					audio.pause();
 					time=-1
 					fengshu=0;
