@@ -28,7 +28,7 @@ $(function(){
 					$(".btn").nextAll().hide();
 					return;
 				}
-				$(".jishiqi").text("剩余:"+(120-time)+"s")
+				$(".jishiqi").text("剩余:"+(180-time)+"s")
 			};
 		},1000)
 	});
