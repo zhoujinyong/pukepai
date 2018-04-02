@@ -15,8 +15,8 @@ $(function(){
 		buju(fapai());
 		t=setInterval(function(){
 			time+=1;
-			if (time<=121) {
-				if(time==121){
+			if (time<=181) {
+				if(time==181){
 					alert("对不起！你已超时");
 					audio.pause();
 					time=-1
